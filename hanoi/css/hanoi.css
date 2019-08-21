@@ -1,0 +1,58 @@
+.hanoi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tower {
+  display: flex;
+  height: 300px;
+  width: 280px;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  justify-content: flex-end;
+}
+
+.tower #level-0, #level-1, #level-2, #bottom {
+  /* background-color: black; */
+  height: 40px;
+  width: 103px;
+  list-style-type: none;
+  margin: 3px;
+  border-radius: 36%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.tower #level-0:hover, #level-1:hover , #level-2:hover  {
+  border-style: dotted;
+  border-color: blueviolet; 
+}
+
+#level-0 {
+  border-radius: 28%;
+  background-color: coral;
+}
+
+#level-1 {
+  width: 185px;
+  border-radius: 28%;
+  background-color: mediumseagreen;
+}
+
+#level-2 {
+  width: 250px;
+  border-radius: 28%;
+  background-color: palevioletred;
+}
+
+#bottom {
+  width: 289px;
+  border-radius: 0%;
+  background-color: cornflowerblue;
+  height: 9px;
+}

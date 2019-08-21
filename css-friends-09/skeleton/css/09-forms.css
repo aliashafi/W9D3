@@ -1,0 +1,34 @@
+/* PHASE 9: Forms */
+.form {
+  background-color: gray;
+  display: flex;
+  padding: 4%;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.label {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  background-color: white;
+}
+
+.content-form {
+  width: 480px;
+  height: 314px;
+  margin-left: 3%;
+}
+
+.submit {
+  background-color: green;
+  width: 22%;
+    padding: 2%;
+}
+
+.content-main{
+  display: flex;
+}

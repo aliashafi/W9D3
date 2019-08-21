@@ -1,0 +1,39 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  background-color: blue;
+  height: 500px;
+  padding-top: 1%;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 13px;
+}
+
+.grid li {
+  background-color: white;
+  padding-top: 3%;
+  width: 160px;
+  height: 140px;
+  list-style-type: none;
+  margin-left: 5px;
+}
+
+#player-1{
+  background-color: white;
+  color: black;
+  font-size: 100px;
+  text-align: center;
+}
+#player-2{
+  background-color: white; 
+  color: black;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+.winner {
+  font-size: 50px;
+  color: pink;
+}
